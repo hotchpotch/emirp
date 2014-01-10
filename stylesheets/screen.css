@@ -238,131 +238,132 @@ a.keyword {
   border-bottom: 2px solid #CCC;
   background: #f9f9f9;
   padding: 1em;
+  margin: 1em 0;
   font-size: 0.8em;
   line-height: 1.2;
 }
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content img {
   vertical-align: middle;
 }
-/* line 147, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content img.hatena-fotolife {
   margin: 0 1em;
 }
-/* line 151, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .hatena-asin-detail {
   border: none;
   border-top: 3px double #ddd;
   border-bottom: 3px double #ddd;
 }
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .hatena-asin-detail .hatena-asin-detail-info {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 157, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .hatena-asin-detail .hatena-asin-detail-info p {
   text-indent: 0;
 }
-/* line 160, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .hatena-asin-detail .hatena-asin-detail-info ul {
   margin: 0;
 }
-/* line 162, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .hatena-asin-detail .hatena-asin-detail-info ul li {
   list-style: none;
 }
-/* line 168, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #main .entry .entry-inner .entry-content .twitter-tweet-rendered {
   margin: 10px auto !important;
 }
-/* line 172, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer {
   max-width: 840px;
   margin: 1em auto;
   font-size: 80%;
 }
-/* line 176, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .entry-footer-section {
   float: right;
   color: #666;
 }
-/* line 180, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer img {
   display: inline;
 }
-/* line 183, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box {
   margin-top: 2em;
   padding-top: 1em;
   text-align: center;
   line-height: 1.8;
 }
-/* line 188, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box li {
   text-align: left;
   padding: 1em 0;
 }
-/* line 191, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box li .hatena-id-icon {
   width: 48px;
   height: 48px;
   float: left;
   margin-right: 15px;
 }
-/* line 197, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box li .comment-content {
   margin-left: 63px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box li p {
   text-indent: 0;
   margin: 0;
 }
-/* line 204, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #main .entry .entry-inner .entry-footer .comment-box li .comment-metadata {
   margin-left: 63px;
   font-size: 0.9em;
 }
-/* line 214, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 #main p {
   margin-bottom: 1em;
   text-indent: 1em;
 }
-/* line 217, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 #main p img {
   display: block;
   margin: auto;
 }
-/* line 223, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #main dt {
   font-weight: bold;
 }
-/* line 226, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #main dd {
   margin: 0 0 1em 1em;
 }
-/* line 230, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 #main .pager {
   padding: 1em;
   text-align: center;
 }
-/* line 233, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #main .pager .pager-next, #main .pager .pager-prev {
   padding: 0 1em;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #content {
   margin: auto;
 }
-/* line 242, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 #content #wrapper {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 10%;
 }
-/* line 247, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 #content #box2 {
   -webkit-box-shadow: black 0px 0px 15px inset;
   -moz-box-shadow: black 0px 0px 15px inset;
@@ -372,7 +373,7 @@ a.keyword {
   background: #222;
   color: #fff;
 }
-/* line 253, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 #content #box2 .hatena-module {
   font-size: 80%;
   margin: auto;
@@ -387,37 +388,37 @@ a.keyword {
   padding: 1em 0;
   vertical-align: top;
 }
-/* line 262, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 #content #box2 .hatena-module-title {
   font-weight: bold;
   border-bottom: 1px solid #333;
 }
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 #content #box2 .hatena-module-body {
   padding: 1em 0;
 }
-/* line 269, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 #content #box2 .hatena-module-archive li {
   display: inline;
   padding-right: 1em;
 }
 
-/* line 276, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 #footer {
   background: #444;
   text-align: center;
   padding: 1em;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #footer * {
   display: inline;
   font-size: 12px;
 }
-/* line 284, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #footer img {
   vertical-align: middle;
 }
-/* line 287, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #footer address:after {
   content: " / ";
 }

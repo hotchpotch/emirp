@@ -56,4 +56,3 @@ DEPENDENCIES
   compass
   guard-compass
   guard-livereload
-  listen (~> 2.1)
