@@ -5,7 +5,7 @@
 
 $font-color: #333;
 $link-color: #479;
-$content-width: 700px;
+$content-width: 840px;
 $pink-color: #F69;
 $blue-color: #69F;
 
@@ -27,23 +27,20 @@ a {
 }
 
 #blog-title {
-    font-size: 5em;
-    font-weight: bold;
-    // padding: 0;
-    font-family: times, Helvetica, Arial, sans-serif;
-    background: none;
-    text-align: center;
-    /*
-    background: url("http://cdn1.www.st-hatena.com/users/se/secondlife/profile.gif") right 40px no-repeat;
-    margin-right: 20px;
-    */
-    a {
-        background: url("http://cdn1.www.st-hatena.com/users/se/secondlife/profile.gif") left center no-repeat;
-        padding-left: 76px;
-        @include link-colors(lighten($font-color, 5%));
-        @include hover-link;
-    }
+  font-size: 5em;
+  font-weight: bold;
+  padding: 0;
+  font-family: times, Helvetica, Arial, sans-serif;
+  background: none;
+  text-align: center;
+  a {
+    background: url("http://cdn1.www.st-hatena.com/users/se/secondlife/profile.gif") left center no-repeat;
+    padding-left: 76px;
+    @include link-colors(lighten($font-color, 5%));
+    @include hover-link;
+  }
 }
+
 
 #main {
     margin: 0 0 2em 0;
@@ -138,11 +135,12 @@ a {
                     }
                 }
                 pre {
-                    border-top: 3px double #ddd;
-                    border-bottom: 3px double #ddd;
+                    border-top: 2px solid #CCC;
+                    border-bottom: 2px solid #CCC;
                     background: #f9f9f9;
                     padding: 1em;
-                    font-size: 0.9em;
+                    font-size: 0.8em;
+                    line-height: 1.2;
                 }
                 img {
                     vertical-align: middle;
@@ -228,7 +226,7 @@ a {
     dd {
         margin: 0 0 1em 1em;
     }
-    
+
     .pager {
         padding: 1em;
         text-align: center;
@@ -247,7 +245,7 @@ a {
         padding: 0 10%;
     }
     #box2 {
-        @include box-shadow(#000 0px 0px 15px inset); 
+        @include box-shadow(#000 0px 0px 15px inset);
         margin: 5em auto 0 auto;
         padding: 2em 10%;
         background: #222;
